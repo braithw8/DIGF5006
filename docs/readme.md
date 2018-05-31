@@ -32,9 +32,9 @@ I really appreciate the colourful language such as *sporked* and *shreduled* tha
 
 The first video illustrates a Chuck performance from the computer performance. The latter illustrates a Chuck performance from the audience perspective.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=D_JSDNoc4Gs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D_JSDNoc4Gs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ZXuZpAYqmco" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZXuZpAYqmco" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 #### scoreTable
 
