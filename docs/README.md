@@ -59,7 +59,7 @@ Fascinating conversations and in-class explorations are only one component of OC
 
 The development of the Harmonizer was inspired by a fascination with the differences between *just* and *equal* intonation of musical instruments. The Harmonizer is an audible frequency interval reference that can switch between just and equal intonation. Essentially, one can build chords and then compare the difference between tuning systems. Coded in JavaScript, the Harmonizer featured a physical interface of eight potentiometers connected to the browser via a microcontroller attached via a serial connection. The current iteration uses P5.js' sound add-on library. My next iteration will feature a web interface and will be rebuilt using flocking.js.
 
-http://blog.ocad.ca/wordpress/digf6037-fw201702-01/2017/11/harmonizer/
+[http://blog.ocad.ca/wordpress/digf6037-fw201702-01/2017/11/harmonizer/](http://blog.ocad.ca/wordpress/digf6037-fw201702-01/2017/11/harmonizer/)
 
 ![Harmonizer](images/harmonizer.png)
 
@@ -67,7 +67,7 @@ http://blog.ocad.ca/wordpress/digf6037-fw201702-01/2017/11/harmonizer/
 
 This was a fun and flippant game I created in Unity. You are driving a car on the inside of a cube. Six buttons determines the vector of gravity, determining the surface that you drive one. In addition, each side of the cube portrays time differently with the music playing back at a different rate or direction depending on the side of the cube.
 
-https://braithwaite-finlay.format.com/blog/digital-games-blog-003-danger-zone
+[https://braithwaite-finlay.format.com/blog/digital-games-blog-003-danger-zone](https://braithwaite-finlay.format.com/blog/digital-games-blog-003-danger-zone)
 
 ![Danger Zone](images/dangerzone.png)
 
@@ -75,13 +75,13 @@ https://braithwaite-finlay.format.com/blog/digital-games-blog-003-danger-zone
 
 I lost myself in developing this music improvisational gaming tool. Through engaging a musical framework in play, players learn to play in key, form chords, and improvise. Future iterations will feature two-player modes where game theory models of Nash equilibrium will reward players for improvising successfully with one another.
 
-https://webspace.ocad.ca/~3164558/JJH/
+[https://webspace.ocad.ca/~3164558/JJH/](https://webspace.ocad.ca/~3164558/JJH/)
 
 ![Junior Jazz Hands](images/jjh.png)
 
 #### Introducing V-aural
 
-https://github.com/braithw8/V-auRal
+[V-auRal .git](https://github.com/braithw8/V-auRal)
 
 Taking this work of developing musical interfaces further while exploring technologies currently unfamiliar to me, I resolved to create V-Aural, a virtual reality navigational synth. In short, through navigating space in virtual reality you are controlling the parameters of a synth.
 
