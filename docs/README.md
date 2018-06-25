@@ -52,7 +52,7 @@ I for one am fascinated by one-note songs where standard melodic instruments do 
 
 ### Post 3 - June 22, 2018
 
-Fascinating conversations and in-class explorations are only one component of OCAD's DIGF5006, *New Interfaces for Musical Expression*. As our major project we're developing our own musical interface while authoring a supporting paper in the NIME format. In my short time in the *Digital Futures* masters program at OCAD, I've already explored the creation of three musical interfaces and I'm eager to continue this exploration. Here's a quick summary of my musical work to date in my master's studies.
+Fascinating conversations and in-class explorations are only one component of OCAD's DIGF5006, *New Interfaces for Musical Expression*. As our major project we're developing our own musical interfaces while authoring a supporting paper in the NIME format. In my short time in the *Digital Futures* masters program at OCAD, I've already explored the creation of three musical interfaces and I'm eager to continue this exploration. Here's a quick summary of my musical work to date in my master's studies.
 
 #### Previous Work
 ##### Harmonizer
@@ -93,9 +93,8 @@ Through this exploration I am connecting the work I did in JavaScript and Unity.
 
 Developing in VR is a pain in the neck, with constantly the constant donning and removal of the headset, so I've begun my work with a screen and an XBOX one controller as my input. So far, I've successfully connected my 3d object in Unity to flocking.js. There's still work to do in refining the 3d object itself as well as its mapping to flocking. For now though, there's a solid framework to continue developing.
 
-The largest remaining challenge is to connect flocking.js' output back to the VR environment. My desire is to seamlessly integrate the object's audio into the user's aural three-dimensional perspective. So, if the object is above you, it sounds like it's above you. And if you're position or orientation changing, your perspective on the object changes to match.
+The largest remaining challenge is to connect flocking.js' output back to the VR environment. My desire is to seamlessly integrate the object's audio into the user's aural three-dimensional perspective. So, if the object is above you, it sounds like it's above you. And if your position or orientation changing, your perspective on the object changes to match.
 
 This is a work in progress, but check this space for the conclusion of my work on V-auRal.
 
-<a href="https://www.youtube.com/embed/L8C2jTxxn8M" target="_blank"><img src="http://img.youtube.com/vi/YL8C2jTxxn8M/0.jpg"
-alt="V-auRal WiP" width="480" height="360" border="10" /></a>
+<iframe width="1072" height="1351" src="https://www.youtube.com/embed/L8C2jTxxn8M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
