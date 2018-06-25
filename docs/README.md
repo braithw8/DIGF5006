@@ -49,3 +49,22 @@ I would argue that pitch is only one parameter of many that define a musical ins
 I for one am fascinated by one-note songs where standard melodic instruments do not deviate from a single pitch. While not-suitable-for-work (if you speak French), the following is one of the best examples.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NgSWm9_BZjs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### Post 3 - June 22, 2018
+
+Fascinating conversations and in-class explorations are only one component of OCAD's DIGF5006, *New Interfaces for Musical Expression*. As our major project we're developing our own musical interface while authoring a supporting paper in the NIME format. In my short time in the *Digital Futures* masters program at OCAD, I've already explored the creation of three musical interfaces and I'm eager to continue this exploration. Here's a quick summary of my musical work to date in my master's studies.
+
+#### Previous Work
+##### Harmonizer
+
+The development of the Harmonizer was inspired by a fascination with the differences between *just* and *equal* intonation of musical instruments. The Harmonizer is an audible frequency interval reference that can switch between just and equal intonation. Essentially, one can build chords and then compare the difference between tuning systems. Coded in JavaScript, the Harmonizer featured a physical interface of eight potentiometers connected to the browser via a microcontroller attached via a serial connection. The current iteration uses P5.js' sound add-on library. My next iteration will feature a web interface and will be rebuilt using flocking.js.
+
+##### Danger zone
+
+This was a fun and flippant game I created in Unity. You are driving a car on the inside of a cube. Six buttons determines the vector of gravity, determining the surface that you drive one. In addition, each side of the cube portrays time differently with the music playing back at a different rate or direction depending on the side of the cube.
+
+##### Junior Jazz Hands
+
+I lost myself in developing this music improvisational gaming tool. Through engaging a musical framework in play, players learn to play in key, form chords, and improvise. Future iterations will feature two-player modes where game theory models of Nash equilibrium will reward players for improvising succesfully with one another.
+
+### Post 4 - June 25, 2018
