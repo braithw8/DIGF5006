@@ -135,4 +135,6 @@ The biggest surprise of my development was the exploration of positional audio i
 
 While excited about spatial audio, I was less thrilled with the awkward mechanics of shuttling audio back from Node.js into Unity. Using a loopback audio driver created noticeable latency as well as some pop and click artifacts inherent in the connection. However, the spatial engine saved the day as it added a layer of immediate feedback back into the project. The synthesizer was quite latent, but it's navigation in space wasn't.
 
+Last but not least, I was really excited to write my first paper in LaTeX. I'm a Microsoft Word enthusiast but I wanted to push myself to learn a different publishing system. While the code based nature of LaTeX was a struggle at first, I really enjoyed working with the framework once I got the hang of it. In the end, I have a paper that resembles the format and appearance of other NIME papers. It looks like a proper academic paper. Perhaps not exciting to most, but definitely to me!
+
 In closing, I'm proud of the work I've started here. I'm eager to continue with the project but I've now found myself in the middle of a whirlwind summer thesis curriculum. I'm amazed what can be accomplished in relatively short amount of time, but I appreciate that much more time is required to take V-auRal to the next level.
