@@ -98,3 +98,41 @@ The largest remaining challenge is to connect flocking.js' output back to the VR
 This is a work in progress, but check this space for the conclusion of my work on V-auRal.
 
 <iframe width="1072" height="1351" src="https://www.youtube.com/embed/L8C2jTxxn8M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+### Post 3 - July 8, 2018
+
+The first working prototype of V-auRal is complete. While there are many elements to finesse and directions not explored in the first iteration, I am nonetheless excited by it's potential as an engaging addition to the world of musical interfaces. I'd argue it adds a unique exploration of sonification through positional navigation as its contribution to the field of new musical interfaces.
+
+## V-auRal Experience
+
+The following is an excerpt of the supporting paper for V-auRal written in the style of a NIME conference paper. It's a succinct documentation of the V-auRal user experience.
+
+[Full Paper](https://drive.google.com/file/d/1i80l4zSsFRtVw4y9VM1oMcsh7cteWWJx/view?usp=sharing)
+
+> In the current V-auRal iteration, the performer pilots a three-dimensional object using a standard gaming controller with a joystick and three buttons. The object is external to the performer's fixed position. The rationale for this design choice is to allow for spatial positioning of the synthesized audio as a core element of the experience. The player rotates the object using the joystick and can modify the axis of rotation with one of the buttons. The remaining two buttons activate positive or negative thrust on the game object, propelling it through space. To aid with visual navigation, the object is arrow-shaped.
+
+> The performer's position, velocity, and rotation map to parameters of a three-oscillator synthesizer. The performer shapes their performance with their navigation, creating an ever-morphing tonal mélange.
+
+> The performer's movement in space is sonified and ultimately delivered to the performer's headphones. This audio foldback is has a spatial perspective that matches the performer's perspective. The performer can sense the relative position of the object through this 3D aural perspective. Additionally, the performer is able to sense movement of the object passing by, as a noticeable doppler effect is audible.
+
+This explanation of the experience's details fails to convey how awesome it is to play V-auRal and how expressive and cool it sounds. Navigating your avatar in 3D space creates a dynamically textured design that's out of this world. Beyond that, it's really fun to fly. The spatial audio features evokes a palpable visceral response as the avatar flies by the user's perspective. The spatial engine truly makes the experience immersive with the aural position directly matching the visual; all the while responding to the user's changing perspective. I could hype this all I want but text is failing me in expressing the engagement experienced by the user. It sounds corny but you have to hear it to believe it.
+
+The following is a demonstration video of V-Aural. Self-documentation of VR is incredibly difficult. Thanks to Tommy Ting (Digital Futures) for filming this. It is also difficult to screen capture a program that spans multiple development environments. Current Game DVR software connects directly to the GPU output for a single application. I used ActivePresenter to capture the development environment in it's entirety in glorious 4k.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1cuc1pm2cJo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## Development Notes
+
+This project checked a lot of boxes in terms of technologies I wanted to explore but hadn't yet had the chance. Through this exploration, I now have a taste for VR integration with the Unity Gaming engine. Using the Vive, I found it relatively straightforward to connect the VR headset to my existing Unity project. This is a testament to the Steam VR engine, its Unity plug-in, and the documentation that comes with it. There's still much to investigate; my biggest disappointment was relying on a traditional game controller as my input rather than integrating the Vive controller in my work.
+
+Similarly, I scratched the surface of OSC in developing V-auRal. I've been using MIDI for over twenty years, it was time for an update! With my relatively modest integration of OSC to make direct mappings between Unity and Flocking.js, I'm a believer in the power of OSC. Perhaps it's the ability to openly code and process OSC data in a scripting language such as JavaScript that most impresses me. The combination of the two point to endless possibilities of musical mappings and interactions. A special shout out goes to UniOSC, the well packaged commercial OSC library for Unity. While there were many free libraries available, there wasn't the time in this six week crash course to interpret and debug cheap and cheerful libraries. While the documentation could have been more polished, I found the graphical OSC editor and data console to be invaluable in controlling and interpreting the OSC data I was creating.
+
+Perhaps the oddest fit in the whole workflow, I thoroughly enjoyed the introduction to Node.js that this project facilitated; its necessity borne out the inability of the Chrome browser to accept UDP based OSC. Had I not chosen Flocking as my synthesis engine, PD for example, I wouldn't not have glimpsed into the massive potential of Node.js. Who thought JavaScript without the browser could be such a powerful tool for creating powerful cross-platform applications. Now, don't get me wrong - I wrestled with node and NPM to the point that I almost gave up all hope. However, through the guidance of Adam Tindale, I persevered in creating my first functional Node.js application. There's a long way to go in terms of finessing and developing my work in this environment as, for example, I'd love to learn the ways of Electron to package an application that appears more polished than what I've made here.
+
+One of my biggest regrets is not delving into the potential of Flocking.js further. With so many working parts, skimming the surface of technologies is a common theme in this development. Flocking appears to be an amazing synthesis engine, but it will take more time and other projects to get a better sense of how I can integrate it into my future work. While this excites me, it is also somewhat unclear as to the shape this future exploration will take.
+
+The biggest surprise of my development was the exploration of positional audio in Unity. I knew this was all possible, but I was not prepared for the aural excitement and personal engagement it created. When I heard the doppler effect of a game object I created as it whizzed by, I was transfixed. I moved that object around for a good 30 minutes and forced a good portion of my cohort to share the experience. I have since offered my fledgling but excited experience with spatial sound in Unity to others in my cohort, in hopes that I can make a small but meaningful contribution to their thesis projects.
+
+While excited about spatial audio, I was less thrilled with the awkward mechanics of shuttling audio back from Node.js into Unity. Using a loopback audio driver created noticeable latency as well as some pop and click artifacts inherent in the connection. However, the spatial engine saved the day as it added a layer of immediate feedback back into the project. The synthesizer was quite latent, but it's navigation in space wasn't.
+
+In closing, I'm proud of the work I've started here. I'm eager to continue with the project but I've now found myself in the middle of a whirlwind summer thesis curriculum. I'm amazed what can be accomplished in relatively short amount of time, but I appreciate that much more time is required to take V-auRal to the next level.
